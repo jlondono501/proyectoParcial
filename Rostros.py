@@ -601,10 +601,10 @@ with tab1:
         st.text("Por favor realice la  foto")   
     else:
         imagen_pil = PIL.Image.open(frame)
-      
         imagen_np = np.array(imagen_pil)
-	#cambio
-	imagen_np = np.expand_dims(imagen_np, axis=0)
+
+        # Agregar una dimensión adicional
+        imagen_np = np.expand_dims(imagen_np, axis=0)
         
         imagen,identidades=pipeline_deteccion_webcam(imagen_np ,dic_referencias, 0.4)
         if imagen is None:
