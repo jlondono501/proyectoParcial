@@ -53,7 +53,7 @@ st.image('logorostro.png',width=200)
 st.title("Proyecto de ciencia de datos")
 st.write("Proyecro dedicado al reconocimiento de rostros, hecho a partir de las fotos de los estudiantes de la clase de ciencia de datos")
 st.write("""
-         Hecho por jonathan londoño
+         Hecho por jonathan londoño y Sofia Higuera
          """
          )
 
