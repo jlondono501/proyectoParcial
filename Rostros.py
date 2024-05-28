@@ -578,7 +578,7 @@ print(F'Running on device: {device}')
  # Crear diccionario de referencia para cada persona
 # ==============================================================================
 dic_referencias = crear_diccionario_referencias(
-                    folder_path    = 'C:\\Users\\Jonathan\\OneDrive\\Escritorio\\proyecto_final\\images\\data',
+                    folder_path    = './images/data',
                     min_face_size  = 40,
                     min_confidence = 0.9,
                     device         = device,
