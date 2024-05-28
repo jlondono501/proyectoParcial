@@ -589,8 +589,8 @@ dic_referencias = crear_diccionario_referencias(
  
 
 
-st.title("Tomar Asistencia en Reunión")
-st.text('Requiere que los asistente se hayan inscrito con anterioridad')
+st.title("Escaneo")
+st.text('Solo se mostrata el escaneo con las personas que mandaron su foto')
 
 tab1, tab2 = st.tabs(["Tomar Foto", "Cargar Foto"])
 
