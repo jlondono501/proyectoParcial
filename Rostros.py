@@ -604,7 +604,7 @@ with tab1:
         imagen_np = np.array(imagen_pil)
 
         # Agregar una dimensión adicional
-        imagen_np = np.expand_dims(imagen_np, axis=0)
+        #imagen_np = np.expand_dims(imagen_np, axis=0)
         
         imagen,identidades=pipeline_deteccion_webcam(imagen_np ,dic_referencias, 0.4)
         if imagen is None:
